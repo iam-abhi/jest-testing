@@ -8,8 +8,7 @@
   },
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["clover", "json", "lcov", "text", "json-summary"],
-    "reporters": ["default", "jest-failure-reporter"]
+    "coverageReporters": ["clover", "json", "lcov", "text", "json-summary"]
   },
   "keywords": [],
   "author": "",
