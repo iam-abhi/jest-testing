@@ -1,0 +1,20 @@
+{
+  "name": "jest-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --no-color 2>output.txt"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": ["clover", "json", "lcov", "text", "json-summary"],
+    "reporters": ["default", "jest-failure-reporter"]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  }
+}
